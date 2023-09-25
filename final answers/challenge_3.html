@@ -2,7 +2,7 @@
 
 The navbar should still appear at top when scrolling
 
-Name:
+Name: Chloe
 -->
 
 <!doctype html>
@@ -13,6 +13,20 @@ Name:
         <title>Challenge 3</title>
         <!-- Load CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+		<!-- I gave styles for the nav bar, making it fixed position and the z-index = 100 so that the container does not overlap the 
+		contents of the navbar. -->
+		<style>
+			.navbar {
+				position: fixed;
+				top: 0;
+				width: 100%;
+				height: 70px;
+				z-index: 100;
+			}
+			.container {
+				margin-top: 70px;
+			}
+		</style>
     </head>
     <body>
 

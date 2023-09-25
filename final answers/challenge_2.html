@@ -1,6 +1,6 @@
 <!--For this file please ensure it matches the output image /answer_image/challenge_2.png
 
-Name:
+Name: Chloe
 -->
 
 <!DOCTYPE html>
@@ -12,16 +12,18 @@ Name:
     <title>Challenge 2</title>
     <style>
         div{
-            width: 50%;
+            /* width: 50%; */
             height: 150px;
             margin-left:0
         }
     </style>
 </head>
+<!-- I made it so that the top is 150px relative to the previous box and made it so that the first box has
+a width of 50% so that all the other boxes will get the same width -->
 <body>
-    <div style="position:relative;background-color:red;">
-        <div style="position:relative;background-color:blue;">
-            <div style="position:relative;background-color:green;">
+    <div style="position:relative;width:50%;background-color:red;">
+        <div style="top:150px;position:relative;background-color:blue;">
+            <div style="top:150px;position:relative;background-color:green;">
             </div>
         </div>
     </div>
